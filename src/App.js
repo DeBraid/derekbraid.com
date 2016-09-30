@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
+    const headshot = 'http://cacheflow.ca/img/db2014headshot.jpg';
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <img src={headshot} className="App-logo" alt="headshot" />
+          <h2>Hello World, I'm Derek Braid.</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>My current homepage is found at <a href="http://cacheflow.ca">cacheflow.ca</a></p>
+        <p>Contact me on Twitter <a href="https://twitter.com/@Royal_Arse">@Royal_Arse</a></p>
       </div>
     );
   }
