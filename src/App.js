@@ -21,13 +21,13 @@ class App extends Component {
               bitcoin and ethereum
             </a>,&nbsp;
             <a href="https://github.com/DeBraid/tech-notes" target="_blank">
-              software and compsci
+              software & computer science
             </a>, and&nbsp;
             <a href="https://twitter.com/Puck_Quant" target="_blank">
               hockey
             </a>.
           </p>
-          <p>Doing research on <a href="https://github.com/DeBraid/ham-innov-essay">technology as catayst</a> for regional economic devlopment.  Book coming soon...</p>
+          <p>Doing research on <a href="https://github.com/DeBraid/ham-innov-essay">technology as catalyst</a> for regional economic development.  Book coming soon...</p>
           <p>Contact me on Twitter <a href="https://twitter.com/@Royal_Arse">@Royal_Arse</a></p>
         </div>
       </div>
