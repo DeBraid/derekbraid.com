@@ -1,3 +1,5 @@
+* { font-family: 'Roboto', sans-serif; }
+
 .App {
   text-align: center;
 }
@@ -9,9 +11,10 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 190px;
   padding: 20px;
   color: white;
+  letter-spacing: 1.125px;
 }
 
 .App-intro {

@@ -8,10 +8,11 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={headshot} className="App-logo" alt="headshot" />
-          <h2>Hello World, I'm Derek Braid.</h2>
+          <h2>Hello World</h2>
+          <h2>I'm Derek Braid a software developer from Toronto</h2>
         </div>
-        <p>I'm a software developer from Toronto, Canada.  <a href="http://cacheflow.ca">cacheflow.ca</a> hosts my mission and CV.</p>
-        <p>Recently, I've written about:&nbsp;
+        <p>Visit <a href="http://cacheflow.ca">cacheflow.ca</a> for my mission and CV.</p>
+        <p>I write about:&nbsp;
           <a href="https://github.com/DeBraid/investing-notes">
             investing, taxes, and policy
           </a>,&nbsp;
