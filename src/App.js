@@ -10,8 +10,8 @@ class App extends Component {
           <img src={headshot} className="App-logo" alt="headshot" />
           <h2>Hello World, I'm Derek Braid.</h2>
         </div>
-        <p>I'm a software developer from Toronto, Canada. My mission and CV is at <a href="http://cacheflow.ca">cacheflow.ca</a></p>
-        <p>I write about:&nbsp;
+        <p>I'm a software developer from Toronto, Canada.  <a href="http://cacheflow.ca">cacheflow.ca</a> hosts my mission and CV.</p>
+        <p>Recently, I've written about:&nbsp;
           <a href="https://github.com/DeBraid/investing-notes">
             investing, taxes, and policy
           </a>,&nbsp;
