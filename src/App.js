@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TrackedLink from './TrackedLink';
 import './App.css';
 
 class App extends Component {
@@ -14,21 +15,37 @@ class App extends Component {
         <div className="App-body">
           <p>Visit <a href="http://cacheflow.ca">cacheflow.ca</a> for my mission and CV.</p>
           <p>I write about:&nbsp;
-            <a href="https://github.com/DeBraid/investing-notes">
-              investing, taxes, and policy
-            </a>,&nbsp;
-            <a href="https://github.com/DeBraid/bitcoin-notes" target="_blank">
-              bitcoin and ethereum
-            </a>,&nbsp;
-            <a href="https://github.com/DeBraid/tech-notes" target="_blank">
-              software & computer science
-            </a>, and&nbsp;
-            <a href="https://twitter.com/Puck_Quant" target="_blank">
-              hockey
-            </a>.
+            <TrackedLink 
+              href="https://github.com/DeBraid/investing-notes"
+              text="investing, taxes, and policy"
+            />
+            ,&nbsp;
+            <TrackedLink 
+              href="https://github.com/DeBraid/bitcoin-notes" 
+              text="bitcoin and ethereum"
+            />
+            ,&nbsp;
+            <TrackedLink 
+              href="https://github.com/DeBraid/tech-notes"
+              text="software & computer science"  
+            />
+            , and&nbsp;
+            <TrackedLink
+              href="https://twitter.com/Puck_Quant"
+              text="hockey"
+            />.
           </p>
-          <p>Doing research on <a href="https://github.com/DeBraid/ham-innov-essay">technology as catalyst</a> for regional economic development.  Book coming soon...</p>
-          <p>Contact me on Twitter <a href="https://twitter.com/@Royal_Arse">@Royal_Arse</a></p>
+          <p>Doing research on&nbsp; 
+            <TrackedLink 
+              href="https://github.com/DeBraid/ham-innov-essay"
+              text="technology as catalyst"
+            /> for regional economic development.  Book coming soon...</p>
+          <p>Contact me on Twitter&nbsp; 
+            <TrackedLink 
+              href="https://twitter.com/@Royal_Arse"
+              text="@Royal_Arse" 
+            />
+          </p>
         </div>
       </div>
     );
