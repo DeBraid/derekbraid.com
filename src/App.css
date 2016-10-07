@@ -21,8 +21,10 @@
   letter-spacing: 1.125px;
 }
 
-@media (min-width:480px) { 
-  height: 250px;
+@media (max-width:480px) { 
+  .App-header {
+    height: 250px;
+  }
 }
 
 .App-intro {
