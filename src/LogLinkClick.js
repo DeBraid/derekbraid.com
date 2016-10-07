@@ -8,7 +8,7 @@ const LogLinkClick = ({href}) => {
 	const config = {
 		category: 'Navigation',
 		action: 'Clicked Link',
-		href
+		label: href
 	}
 	ReactGA.event(config);
 }
