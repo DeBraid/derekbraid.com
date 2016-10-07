@@ -1,7 +1,8 @@
 // LogPageView
 import ReactGA from 'react-ga';
+import K from './AppConstants';
 
-ReactGA.initialize('UA-85048582');
+ReactGA.initialize(K.GAID);
 
 const LogPageView = () => {
 	const page = window.location.pathname;
