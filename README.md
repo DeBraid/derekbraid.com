@@ -48,6 +48,15 @@ class TrackedLink extends Component {
 export default TrackedLink;
 ```
 
+usage, like so: 
+
+```
+<TrackedLink 
+  href="https://github.com/DeBraid/investing-notes"
+  text="investing, taxes, and policy"
+/>
+```
+
 
 Using react, via the amazing cli tool create-react-app, see [boilerplate readme](https://github.com/DeBraid/derekbraid.com/blob/master/CRA-README.md).
 
