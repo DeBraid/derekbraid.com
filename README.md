@@ -9,7 +9,7 @@ A `React` component for tracking links with google analytics:
 
 the `fn`:
 
-```
+```javascript
 import ReactGA from 'react-ga';
 import K from './AppConstants';
 
@@ -27,7 +27,7 @@ const LogLinkClick = ({href}) => {
 export default LogLinkClick;
 ```
 and the core `component`:
-```
+```javascript
 import React, { Component } from 'react';
 import LogLinkClick from './LogLinkClick';
 
@@ -50,7 +50,7 @@ export default TrackedLink;
 
 usage, like so: 
 
-```
+```javascript
 <TrackedLink 
   href="https://github.com/DeBraid/investing-notes"
   text="investing, taxes, and policy"
