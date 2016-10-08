@@ -10,6 +10,7 @@ const LogLinkClick = ({href}) => {
 		action: 'Clicked Link',
 		label: href
 	}
+	// console.log('LogLinkClick config', config); debugger;
 	ReactGA.event(config);
 }
 

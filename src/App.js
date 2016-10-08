@@ -13,7 +13,13 @@ class App extends Component {
           <h3>I develop software with javascript, study biochemistry and behavioural finance.</h3>
         </div>
         <div className="App-body">
-          <p>Visit <a href="http://cacheflow.ca">cacheflow.ca</a> for my mission and CV.</p>
+          <p>Visit&nbsp; 
+            <TrackedLink 
+              href="http://cacheflow.ca"
+              text="cacheflow.ca"
+            />
+            &nbsp;for my mission and CV.
+          </p>
           <p>I write about:&nbsp;
             <TrackedLink 
               href="https://github.com/DeBraid/investing-notes"
