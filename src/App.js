@@ -46,7 +46,7 @@ class App extends Component {
               href="https://github.com/DeBraid/ham-innov-essay"
               text="technology as catalyst"
             /> for regional economic development.  Book coming soon...</p>
-          <p>Contact me on Twitter&nbsp; 
+          <p>Contact me via Twitter&nbsp; 
             <TrackedLink 
               href="https://twitter.com/@Royal_Arse"
               text="@Royal_Arse" 
