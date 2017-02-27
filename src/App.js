@@ -21,6 +21,11 @@ class App extends Component {
             &nbsp;for my mission and CV.
           </p>
           <p>I write about:&nbsp;
+          <TrackedLink 
+              href="https://github.com/DeBraid/medicine"
+              text="medicine and plant-based nutrition"
+            />
+            ,&nbsp;
             <TrackedLink 
               href="https://github.com/DeBraid/investing-notes"
               text="investing, taxes, and policy"
