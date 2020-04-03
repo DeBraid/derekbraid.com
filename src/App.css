@@ -1,7 +1,9 @@
 * { font-family: 'Roboto', sans-serif; }
 
-.App {
+.App-header {
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -9,7 +11,7 @@
   height: 80px;
 }
 
-.App-body {
+.App-body-content {
   margin: 20px;
 }
 
@@ -21,7 +23,7 @@
   letter-spacing: 1.125px;
 }
 
-@media (max-width:480px) { 
+@media (max-width:480px) {
   .App-header {
     height: 250px;
   }

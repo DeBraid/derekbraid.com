@@ -12,7 +12,7 @@ class App extends Component {
           <h3>Hello World, I'm Derek Braid</h3>
           <h3>I develop software with javascript, study biochemistry and behavioural finance.</h3>
         </div>
-        <div className="App-body">
+        <div className="App-body-content">
           <p>I write about:&nbsp;
           <TrackedLink
               href="https://github.com/DeBraid/medicine"
@@ -44,12 +44,29 @@ class App extends Component {
               href="https://github.com/DeBraid/ham-innov-essay"
               text="technology as catalyst"
             /> for regional economic development.  Book coming soon...</p>
-          <p>Contact me via Twitter&nbsp;
-            <TrackedLink
-              href="https://twitter.com/@Royal_Arse"
-              text="@Royal_Arse"
-            />
-          </p>
+        </div>
+        <div className="App-body-content">
+          <p>Contact me via:</p>
+          <ul>
+            <li>
+              <TrackedLink
+                href="https://twitter.com/@Royal_Arse"
+                text="Twitter"
+              />
+            </li>
+            <li>
+              <TrackedLink
+                href="https://www.linkedin.com/in/debraid/"
+                text="LinkedIn"
+              />
+            </li>
+            <li>
+              <TrackedLink
+                href="https://www.github.com/debraid"
+                text="Github"
+              />
+            </li>
+          </ul>
         </div>
       </div>
     );
